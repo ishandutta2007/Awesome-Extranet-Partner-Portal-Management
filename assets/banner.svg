@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="subTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Glowing filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.55; }
+    }
+    @keyframes pulsePurple {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.3; }
+      50% { transform: scale(1.2) translate(25px, -15px); opacity: 0.5; }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .orb-cyan {
+      animation: pulseOrb 8s ease-in-out infinite;
+      transform-origin: 200px 100px;
+    }
+    .orb-purple {
+      animation: pulsePurple 10s ease-in-out infinite;
+      transform-origin: 1000px 300px;
+    }
+    .flow-path {
+      stroke-dasharray: 12, 12;
+      animation: flowLine 6s linear infinite;
+    }
+    .pill-anim-1 {
+      animation: floatPill 5s ease-in-out infinite;
+    }
+    .pill-anim-2 {
+      animation: floatPill 6s ease-in-out 1s infinite;
+    }
+    .pill-anim-3 {
+      animation: floatPill 5.5s ease-in-out 2s infinite;
+    }
+    .pill-anim-4 {
+      animation: floatPill 6.5s ease-in-out 1.5s infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .body-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Animated Glowing Orbs (Background Layer) -->
+  <circle class="orb-cyan" cx="200" cy="90" r="140" fill="#0284c7" filter="url(#glowCyan)" />
+  <circle class="orb-purple" cx="1020" cy="310" r="160" fill="#7c3aed" filter="url(#glowPurple)" />
+  <circle cx="600" cy="210" r="100" fill="#0f766e" opacity="0.2" filter="url(#glowCyan)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Network / Extranet Connection Mesh (Behind Text) -->
+  <g opacity="0.45">
+    <path class="flow-path" d="M 80 80 Q 300 200 600 70 T 1120 120" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="flow-path" d="M 80 340 Q 400 180 800 360 T 1120 280" fill="none" stroke="#a855f7" stroke-width="2" />
+    <!-- Network Nodes -->
+    <circle cx="80" cy="80" r="4" fill="#38bdf8" />
+    <circle cx="600" cy="70" r="5" fill="#818cf8" />
+    <circle cx="1120" cy="120" r="4" fill="#38bdf8" />
+    <circle cx="80" cy="340" r="4" fill="#a855f7" />
+    <circle cx="800" cy="360" r="5" fill="#c084fc" />
+    <circle cx="1120" cy="280" r="4" fill="#a855f7" />
+  </g>
+
+  <!-- Foreground Content: Header & Titles (Guaranteed Unhidden) -->
+  <g text-anchor="middle" transform="translate(600, 0)">
+    <!-- Top Category Badge -->
+    <rect x="-135" y="45" width="270" height="30" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.8" />
+    <text x="0" y="65" fill="#60a5fa" font-size="12.5" class="body-text" font-weight="700" letter-spacing="1.2">CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="135" fill="url(#primaryTextGrad)" font-size="44" class="title-text">Awesome Extranet &amp; Partner Portals</text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="175" fill="url(#subTextGrad)" font-size="19" class="body-text">
+      The Ultimate Guide to PRM, Client Portals, Deal Registration &amp; Self-Hosted Extranets
+    </text>
+    <text x="0" y="202" fill="#64748b" font-size="14.5" class="body-text">
+      Enterprise SaaS Marketplaces &bull; Open-Source Self-Hosted Workspaces &bull; Channel Enablement
+    </text>
+  </g>
+
+  <!-- Dynamic Feature Badges / Floating Pills (Lower Half) -->
+  <g transform="translate(140, 245)">
+    <!-- Pill 1: Partner Relationship Management -->
+    <g class="pill-anim-1" transform="translate(0, 0)">
+      <rect width="210" height="48" rx="24" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" />
+      <circle cx="28" cy="24" r="8" fill="#0284c7" />
+      <text x="48" y="29" fill="#f1f5f9" font-size="13" class="body-text" font-weight="600">🤝 PRM &amp; Channels</text>
+    </g>
+
+    <!-- Pill 2: Secure Extranets -->
+    <g class="pill-anim-2" transform="translate(235, 0)">
+      <rect width="210" height="48" rx="24" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.7" />
+      <circle cx="28" cy="24" r="8" fill="#6366f1" />
+      <text x="48" y="29" fill="#f1f5f9" font-size="13" class="body-text" font-weight="600">🔒 Secure Extranets</text>
+    </g>
+
+    <!-- Pill 3: Deal Registration -->
+    <g class="pill-anim-3" transform="translate(470, 0)">
+      <rect width="215" height="48" rx="24" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.7" />
+      <circle cx="28" cy="24" r="8" fill="#9333ea" />
+      <text x="48" y="29" fill="#f1f5f9" font-size="13" class="body-text" font-weight="600">💼 Deal Registration</text>
+    </g>
+
+    <!-- Pill 4: Open-Source Portals -->
+    <g class="pill-anim-4" transform="translate(710, 0)">
+      <rect width="210" height="48" rx="24" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.7" />
+      <circle cx="28" cy="24" r="8" fill="#059669" />
+      <text x="48" y="29" fill="#f1f5f9" font-size="13" class="body-text" font-weight="600">⚡ Open-Source Hub</text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Metrics Bar -->
+  <g transform="translate(0, 360)">
+    <line x1="100" y1="0" x2="1100" y2="0" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
+    <text x="600" y="32" fill="#94a3b8" font-size="13.5" class="body-text" text-anchor="middle">
+      🚀 Enterprise SaaS &bull; 🌐 Self-Hosted &bull; 📦 REST &amp; GraphQL APIs &bull; 🛡️ Multi-Tenant RBAC &bull; 📊 Real-Time Analytics
+    </text>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="#475569" stroke-opacity="0.3" stroke-width="1" />
+</svg>
