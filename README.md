@@ -15,21 +15,26 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Partner Relationship Management (PRM) and Extranet software market is estimated at approximately $3B to $5B for core software solutions (expanding past $15B+ within broader digital workplace and channel enablement ecosystems), expanding at a CAGR of 14%–17%. The sector is **moderately fragmented**: mega-cap enterprise CRM vendors (such as Salesforce) dominate large ecosystems, while specialized pure-play PRM platforms (like Impartner, Magentrix, Channeltivity, and Allbound) fiercely compete alongside self-hosted/open-source portal frameworks for mid-market and niche channel requirements.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Salesforce Experience Cloud](https://www.salesforce.com/products/experience-cloud/)** | **The enterprise partner portal standard.** Build branded partner communities with deal registration, lead distribution, training materials, and reporting. **Requires at least one Enterprise Edition Salesforce license** to run, plus community user licensing . Partner Community license grants external partners access to the portal with controlled data visibility via sharing sets . | Quote-only (base Salesforce license + community user licensing; Customer Community ~$5/login or $2/member/month) | No free tier; demo via sales . **Community licensing costs are separate** from base Salesforce subscription . |
-| **[Impartner PRM](https://www.impartner.com/)** | **Purpose-built partner relationship management.** Channel enablement, deal registration, partner onboarding, and performance analytics. Positioned for enterprises with complex channel programs. | Quote-only | No free tier; demo via sales |
-| **[Zoho Portals](https://www.zoho.com/)** | Partner portal within the Zoho ecosystem (limited public information available; part of Zoho's broader collaboration tools). | Contact Zoho for pricing | Contact vendor |
-| **[Magentrix](https://www.magentrix.com/)** | PRM and partner portal platform with deal registration, content management, and partner training. | Quote-only | No free tier; demo via sales |
-| **[Allbound](https://www.allbound.com/)** | Partner sales and marketing enablement platform. Focused on content distribution, training, and partner engagement. | Quote-only | No free tier; demo via sales |
-| **[Channeltivity](https://www.channeltivity.com/)** | PRM platform with deal registration, partner onboarding, and channel marketing tools. Positioned for mid-market channel programs. | Quote-only | No free tier; demo via sales |
+| Product | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits | Description |
+|---------|-----------------------------------|------------------|--------------------------|-------------|
+| **[Salesforce Experience Cloud](https://www.salesforce.com/products/experience-cloud/)** | ~$200B–$250B Market Cap (~$38B FY25 Rev) | $25/member/month (Partner Community, billed annually) or $10/login | No permanent production free tier. 30-day free trial on CRM parent orgs, or free permanent Developer Edition (capped at 5 MB data storage, 20 MB file storage, and 5,000 API requests/day). | **The enterprise partner portal standard.** Build branded partner communities with deal registration, lead distribution, training materials, and reporting. Requires at least one Enterprise Edition Salesforce license to host. |
+| **[Zoho Portals (Creator / CRM)](https://www.zoho.com/)** | ~$12.5B Valuation (~$1.5B FY25 Rev) | $8/user/month (Zoho Creator Standard) + $100/month per block of 250 external portal users | Free forever plan available (capped at 1 app, 1 user, and 5,000 total records); 15-day free trial on paid tiers (unlocked features, no credit card required). | External partner/client access portal capabilities across the Zoho ecosystem (Creator & CRM), enabling custom partner interfaces, record workflows, and role-based permissions. |
+| **[Impartner PRM](https://www.impartner.com/)** | ~$35M–$45M ARR ($110M+ Raised) | $2,000/month ($25,000/year billed annually for Emerge tier) | No permanent free tier; 30-day trial available exclusively via partner marketplace programs (HubSpot integration) or custom demo sandboxes upon sales qualification. | **Purpose-built partner relationship management.** Channel enablement, deal registration, partner onboarding, and performance analytics positioned for enterprises with complex channel programs. |
+| **[Allbound](https://www.allbound.com/)** | ~$43M Growth Investment (~$7M+ ARR) | $3,495/month (annual commitment) | No free tier and no self-service free trial; product evaluation requires a scheduled sales demonstration. | Partner sales and marketing enablement platform focused on content distribution, deal registration, training, and partner collaboration. |
+| **[Magentrix](https://www.magentrix.com/)** | ~$5M ARR (Bootstrapped/Private) | $1,500/month (Essential PRM tier, includes ~100 partner users / 10 partner accounts) | No permanent free tier; 1-month trial option offered upon plan onboarding. | PRM and partner portal platform offering seamless CRM integration (Salesforce/HubSpot), deal registration, content management, and partner training with zero setup fees. |
+| **[Channeltivity](https://www.channeltivity.com/)** | ~$1.5M ARR (Private/Bootstrapped) | $1,199/month (Growth tier, billed annually) | No free tier and no free trial; access requires a custom sales consultation and live product demonstration. | PRM platform with deal registration, lead distribution, partner onboarding, and channel marketing tools tailored for mid-market channel programs. |
 
 ## Open-Source GitHub Projects
 
