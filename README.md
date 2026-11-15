@@ -1,6 +1,6 @@
 # Awesome-Extranet-Partner-Portal-Management
 
-# Top Extranet & Partner Portal Management Ecosystem
+## Top Extranet & Partner Portal Management Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Channel Enablement, Deal Registration & Self-Hosted Partner Workspaces*  
