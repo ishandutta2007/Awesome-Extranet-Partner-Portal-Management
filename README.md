@@ -25,7 +25,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ### 🎯 Key Highlights:
 - 🏢 **Enterprise SaaS Solutions**: Comprehensive comparison of category leaders (Salesforce Experience Cloud, Impartner PRM, Zoho Portals, Magentrix, Allbound, Channeltivity) with starting tier prices, specific free trial / free tier limits, and corporate scale.
-- ⚡ **Self-Hosted Open-Source Alternatives**: Battle-tested open-source repositories (Twenty, Odoo, ERPNext, Invoice Ninja, SuiteCRM, ProjectSend, Atrium, ClientShare) with live star badges linked to stargazers and sorted descending by popularity.
+- ⚡ **Self-Hosted Open-Source Alternatives**: Battle-tested open-source repositories (Twenty, Odoo, ERPNext, Invoice Ninja, SuiteCRM, ProjectSend, Atrium, ClientShare) with live Stars_Badges linked to stargazers and sorted descending by popularity.
 - 🛡️ **Data Sovereignty & Cost Efficiency**: Eliminate compounding per-seat external user licensing fees with self-hostable Docker, Node, PHP, Python, and Go solutions.
 
 ---
@@ -64,9 +64,9 @@ The sector is **moderately fragmented**: mega-cap enterprise CRM vendors (led by
 
 ## 💻 Open-Source GitHub Projects
 
-Curated self-hosted partner portals, extranets, client collaboration spaces, and CRM foundation frameworks sorted descending by GitHub star count:
+Curated self-hosted partner portals, extranets, client collaboration spaces, and CRM foundation frameworks sorted descending by GitHub Stars_Count:
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |---------|:----------:|-------------|
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | **Modern open-source CRM that can be extended into a partner portal workspace.** Self-hostable with Docker or Railway (PostgreSQL, Redis, MinIO pre-wired). Supports custom objects to model partners, agencies, deal registrations, and RFP responses with granular RBAC and GraphQL/REST APIs. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **World-renowned modular open-source ERP & CRM suite featuring a dedicated Partner & Customer Portal.** Enables external partners and clients to manage quotations, review signed sales orders, access shared documents, submit tickets, and track invoices in an isolated external workspace. |
