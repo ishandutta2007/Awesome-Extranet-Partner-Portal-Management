@@ -64,7 +64,7 @@ The sector is **moderately fragmented**: mega-cap enterprise CRM vendors (led by
 
 ## 💻 Open-Source GitHub Projects
 
-Curated self-hosted partner portals, extranets, client collaboration spaces, and CRM foundation frameworks sorted descending by GitHub Stars_Count:
+Curated self-hosted partner portals, extranets, client collaboration spaces, and CRM foundation frameworks sorted descending by GitHub_Stars_Count:
 
 | Project | Stars_Badge | Description |
 |---------|:----------:|-------------|
