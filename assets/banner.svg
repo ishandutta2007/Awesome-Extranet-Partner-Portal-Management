@@ -129,7 +129,7 @@
       The Ultimate Guide to PRM, Client Portals, Deal Registration &amp; Self-Hosted Extranets
     </text>
     <text x="0" y="202" fill="#64748b" font-size="14.5" class="body-text">
-      Enterprise SaaS Marketplaces &bull; Open-Source Self-Hosted Workspaces &bull; Channel Enablement
+      Enterprise SaaS Marketplaces &#8226; Open-Source Self-Hosted Workspaces &#8226; Channel Enablement
     </text>
   </g>
 
@@ -168,7 +168,7 @@
   <g transform="translate(0, 360)">
     <line x1="100" y1="0" x2="1100" y2="0" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
     <text x="600" y="32" fill="#94a3b8" font-size="13.5" class="body-text" text-anchor="middle">
-      🚀 Enterprise SaaS &bull; 🌐 Self-Hosted &bull; 📦 REST &amp; GraphQL APIs &bull; 🛡️ Multi-Tenant RBAC &bull; 📊 Real-Time Analytics
+      🚀 Enterprise SaaS &#8226; 🌐 Self-Hosted &#8226; 📦 REST &amp; GraphQL APIs &#8226; 🛡️ Multi-Tenant RBAC &#8226; 📊 Real-Time Analytics
     </text>
   </g>
 
